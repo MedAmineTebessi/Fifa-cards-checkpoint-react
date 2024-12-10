@@ -1,0 +1,117 @@
+const playerData = [
+    {
+        "name" : "Kylian Mbappe",
+        "img" : "https://cdn.futmind.com/_next/image?url=https%3A%2F%2Ffutmind.com%2Fimages%2Ffifa2025%2Fplayers%2Fp50563395.png&w=3840&q=75",
+        "nat" : "https://images.ctfassets.net/rs6bgs1g8dbr/5Il39kdF0vuuJ1Gc18R7Ww/b982b6f565d2d59fe0dc61e5ca620092/f_18.png?q=85&w=1280",
+        "team" : "https://images.ctfassets.net/rs6bgs1g8dbr/3X9LsZRgy03pchwhQacpwY/f6a0a73d564f4e5653e88427c0b4a02c/Real_Madrid.png?q=85&w=1280",
+        "pos" : "ST",
+        "ovr" : "99",
+        "pac" : "97",
+        "sho" : "90",
+        "pas" : "80",
+        "dri" : "92",
+        "def" : "36",
+        "phy" : "78"
+    },
+    {
+        "name" : "Rodri",
+        "img" : "https://cdn.futbin.com/content/fifa23/img/players/p100895162.png?v=23",
+        "nat" : "https://images.ctfassets.net/rs6bgs1g8dbr/7k3VpeG3cF7mCTkCpmY6cu/ee3d0c890df33b3ad4b4d5b9cd031ba9/f_45.png?q=85&w=1280",
+        "team" : "https://images.ctfassets.net/rs6bgs1g8dbr/5GnvVTcxE7ffuqArMHy9Rz/0f45440299772eb88eb7613ace0dc2b7/Manchester_City.png?q=85&w=1280",
+        "pos" : "CDM",
+        "ovr" : "91",
+        "pac" : "66",
+        "sho" : "80",
+        "pas" : "86",
+        "dri" : "84",
+        "def" : "87",
+        "phy" : "85"
+    },
+    {
+        "name" : "Aitana Bonmati",
+        "img" : "https://cdn3.futbin.com/content/fifa24/img/players/p84127747.png?fm=png&ixlib=java-2.1.0&w=224&s=ee338fb35f6ed5d20e76015e674246dc",
+        "nat" : "https://images.ctfassets.net/rs6bgs1g8dbr/7k3VpeG3cF7mCTkCpmY6cu/ee3d0c890df33b3ad4b4d5b9cd031ba9/f_45.png?q=85&w=1280",
+        "team" : "https://images.ctfassets.net/rs6bgs1g8dbr/6iI4tBioBWxOxEnINiHjJd/13848fe939b2d14acefb01768eebd9c0/FC_Barcelona.png?q=85&w=1280",
+        "pos" : "CM",
+        "ovr" : "91",
+        "pac" : "81",
+        "sho" : "86",
+        "pas" : "86",
+        "dri" : "91",
+        "def" : "77",
+        "phy" : "75"
+    },
+    {
+        "name" : "Cristiano Ronaldo",
+        "img" : "https://game-assets.fut.gg/2025/player-item/25-50352449.7b2deb91b8384cfa9f38ff04b9586c9468acf7a9fc4660bf2feb223f1d2e416b.webp?quality=100&width=500",
+        "nat" : "https://images.ctfassets.net/rs6bgs1g8dbr/2lrwEhKVgf1yqaNPErE17U/827ef25bd1820ad5c65b278a021e9d86/f_38.png?q=85&w=1280",
+        "team" : "https://images.ctfassets.net/rs6bgs1g8dbr/4GkynPe8zldJYqrc9fZNRE/d14659850d9cbb96e61dc6f3485fce6c/Al_Nassr.png?q=85&w=1280",
+        "pos" : "ST",
+        "ovr" : "86",
+        "pac" : "77",
+        "sho" : "88",
+        "pas" : "77",
+        "dri" : "80",
+        "def" : "34",
+        "phy" : "77"
+    },
+    {
+        "name" : "Lionel Messi",
+        "img" : "https://game-assets.fut.gg/2025/player-item/25-84044103.571d466612abc2d9f79d82c12c973d370074ef229a123fc3417f3fdb4081be12.webp?quality=100&width=500",
+        "nat" : "https://game-assets.fut.gg/2025/nation/52.411384d76f978ce88ee08880f79fd0b7c92d9f7a35a091c2fe2e58ad066e8a1a.png?quality=100&width=80",
+        "team" : "https://game-assets.fut.gg/2025/club/112893.031f4b2b547c1bf3cb7d367e7781a47ea5836b488248d6a4bb248bcdb5646556.png?quality=100&width=80",
+        "pos" : "RW",
+        "ovr" : "91",
+        "pac" : "85",
+        "sho" : "90",
+        "pas" : "90",
+        "dri" : "95",
+        "def" : "32",
+        "phy" : "70"
+    },
+    {
+        "name" : "Neymar Jr.",
+        "img" : "https://game-assets.fut.gg/2025/player-item/25-50522519.7dfaccea69ebf3b610520ed52ff536fbfff06803368a776f44370f43e11d8624.webp?quality=100&width=500",
+        "nat" : "https://game-assets.fut.gg/2025/nation/54.d9dc910e9f0757f8cb3980b65ec126b38c7ccd8eacbf33812b324fb0acb499c0.png?quality=100&width=80",
+        "team" : "https://game-assets.fut.gg/2025/club/605.0e601cc74a1fa8a4e79a0303be52f4f3e0bf0ba0302e8ff146e629132f077498.png?quality=100&width=80",
+        "pos" : "LW",
+        "ovr" : "89",
+        "pac" : "89",
+        "sho" : "85",
+        "pas" : "83",
+        "dri" : "93",
+        "def" : "40",
+        "phy" : "76"
+    },
+    {
+        "name" : "Erling Haaland",
+        "img" : "https://game-assets.fut.gg/2025/player-item/25-84125165.5a6c4ddb97ffb9c34183744497e774b8fc1bebb5d07b3f837891e97d03d6410e.webp?quality=100&width=500",
+        "nat" : "https://game-assets.fut.gg/2025/nation/36.bad78885ca92c601e379ba3640ba2919daa3f774505a480250ae573257a3c647.png?quality=100&width=80",
+        "team" : "https://images.ctfassets.net/rs6bgs1g8dbr/5GnvVTcxE7ffuqArMHy9Rz/0f45440299772eb88eb7613ace0dc2b7/Manchester_City.png?q=85&w=1280",
+        "pos" : "ST",
+        "ovr" : "91",
+        "pac" : "92",
+        "sho" : "93",
+        "pas" : "80",
+        "dri" : "85",
+        "def" : "40",
+        "phy" : "88"
+    },
+    {
+        "name" : "Kevin De Bruyne",
+        "img" : "https://game-assets.fut.gg/2025/player-item/25-67301849.b3cba0953c838f0e1cfb700f62de690fc13931c116c39fcf568880633cb436f7.webp?quality=100&width=500",
+        "nat" : "https://game-assets.fut.gg/2025/nation/7.ac5d909d61d15c23304d9bb4565db31d2b49c36181a95422ef481126060f6793.png?quality=100&width=80",
+        "team" : "https://game-assets.fut.gg/2025/club/10.cc6123c8e321e6bfad5d5bbbcd0579269055f59e34cbe660c1b60eb5562377b1.png?quality=100&width=80",
+        "pos" : "CAM",
+        "ovr" : "91",
+        "pac" : "74",
+        "sho" : "83",
+        "pas" : "94",
+        "dri" : "88",
+        "def" : "50",
+        "phy" : "75"
+    }
+];
+
+
+export default playerData;
